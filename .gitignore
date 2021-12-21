@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Create a whitelist for dotfiles
+!.aliases
+!.bashrc
+!.brew-aliases
+!/.config/iterm2/
+!.env
+!.gitconfig
+!.gitignore
+!.gitignore_global
+!.oh-my-zsh
+.oh-my-zsh/**/*
+!.oh-my-zsh/custom
+!.paths
+!.vimrc
+!.zshrc
+
