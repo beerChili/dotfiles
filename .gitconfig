@@ -1,11 +1,13 @@
 [alias]
 	aa = add --all
-	st = status
+	st = status -s
 	dc = diff --cached
 	ci = commit
+	ca = commit --amend
 	br = branch
 	co = checkout
 	di = diff
+	ri = rebase -i
 	pullff = pull --ff-only
 [user]
 	name = beerchili
