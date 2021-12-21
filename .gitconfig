@@ -1,0 +1,21 @@
+[alias]
+	aa = add --all
+	st = status
+	dc = diff --cached
+	ci = commit
+	br = branch
+	co = checkout
+	di = diff
+	pullff = pull --ff-only
+[user]
+	name = beerchili
+	email = eugen.liebreich@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesFile = ~/.gitignore_global
+	editor = vim
+[init]
+	defaultBranch = main
+[status]
+	showUntrackedFiles = all

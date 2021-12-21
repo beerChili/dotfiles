@@ -1,0 +1,9 @@
+export JAVA_HOME="/usr/local/opt/openjdk"
+export PATH="$JAVA_HOME/bin":"$PATH"
+export SSH_KEY_PATH='~/.ssh/rsa_id'
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
+  . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"
+export GOPATH=$HOME/Developer/golib:$HOME/Developer/go
+export PATH="$PATH:${GOPATH}/bin"
+export PATH="$PATH:${HOME}/.cargo/bin"

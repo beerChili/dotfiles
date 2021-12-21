@@ -5,14 +5,11 @@
 !.aliases
 !.bashrc
 !.brew-aliases
-!/.config/iterm2/
+!.brew-aliases/*
 !.env
 !.gitconfig
 !.gitignore
 !.gitignore_global
-!.oh-my-zsh
-.oh-my-zsh/**/*
-!.oh-my-zsh/custom
 !.paths
 !.vimrc
 !.zshrc
